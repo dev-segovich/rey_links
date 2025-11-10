@@ -162,3 +162,27 @@
       font-size: 0.85rem;
     }
   }
+
+  
+  .save-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #364350;
+  color: white;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.save-contact-btn:hover {
+  background-color: #5d7287;
+}
+
+.save-contact-btn i {
+  width: 60px;
+  font-size: 2.5rem;
+}
